@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Index</title>
+    <title>Index | NeedRepair</title>
 
     <style>
     #button {
@@ -17,6 +17,7 @@
       font-family:sans-serif; 
       font-weight: bold; 
       font-size: 24px;
+      cursor: pointer;
     }
     #tengah {
       margin-left : 540px;
@@ -33,6 +34,7 @@
       font-size : 18px;
       color : white;
       margin-left : 573px;
+      cursor: pointer;
     }
     .footer{
       font-family : sans-serif;
@@ -67,8 +69,8 @@
     <div class="footer">
       <br><br>
       <p>Follow us on :</p>
-      <a href="https://web.facebook.com/profile.php?id=100005518775296"><img src="img/facebook.png" alt="" style="width: 40px;"></a>
-      <a href="https://www.instagram.com/fernandozhahirsyah/"><img src="img/instagram.png" alt="" style="margin-left: 10px; width: 40px;"> </a>
+      <a href="https://web.facebook.com/profile.php?id=100005518775296"><img src="img/facebook.png" alt="" style="width: 40px; cursor: pointer;"></a>
+      <a href="https://www.instagram.com/fernandozhahirsyah/"><img src="img/instagram.png" alt="" style="margin-left: 10px; width: 40px; cursor: pointer;"> </a>
     </div>
     <!-- /Footer -->
 
