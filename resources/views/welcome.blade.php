@@ -10,10 +10,13 @@
     <style>
     #button {
       width : 240px;
-      height : 70px;
+      height : 50px;
       background-color : white;
-      border-radius : 20px;
+      border-radius : 16px;
       margin-left : 540px;
+      font-family:sans-serif; 
+      font-weight: bold; 
+      font-size: 24px;
     }
     #tengah {
       margin-left : 540px;
@@ -33,7 +36,7 @@
     }
     .footer{
       font-family : sans-serif;
-      font-size : 18px;
+      font-size : 14px;
       font-weight : bold;
       color : white;
       margin-left : 40px;
@@ -55,17 +58,17 @@
     <div class="tengah1">
       <p>WE REPAIR EVERYTHING</p>
     </div>
-    <br>
-    <button id="button" onclick="location.href='{{ url('login') }}'" style="font-family:sans-serif; font-weight:bold; font-size: 24px;">Login</button>
+    <button id="button" onclick="location.href='{{ url('login') }}'">Login</button>
     <div class="tengah2">
       <p>Or <a href="{{ url('daftar') }}" style="color:white"> Create Acoounts</a>
     </div>
 
     <!-- Footer -->
     <div class="footer">
+      <br><br>
       <p>Follow us on :</p>
-      <a href="https://web.facebook.com/profile.php?id=100005518775296"><img src="img/facebook.png" alt=""></a>
-      <a href="https://www.instagram.com/fernandozhahirsyah/"><img src="img/instagram.png" alt="" style="margin-left:20px;"> </a>
+      <a href="https://web.facebook.com/profile.php?id=100005518775296"><img src="img/facebook.png" alt="" style="width: 40px;"></a>
+      <a href="https://www.instagram.com/fernandozhahirsyah/"><img src="img/instagram.png" alt="" style="margin-left: 10px; width: 40px;"> </a>
     </div>
     <!-- /Footer -->
 
