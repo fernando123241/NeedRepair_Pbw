@@ -139,6 +139,6 @@
             <h3 style="margin-left:20px;">Grade : 6/10</h3>
         </div>
     </div>
-    <button class=next style=""><a href="#" style="text-decoration:none; color:white; font-size:20px; font-weight:bold;">Next</a></button>
+    <button class="next"><a href="/popup" style="text-decoration:none; color:white; font-size:20px; font-weight:bold;">Confirm</a></button>
   </body>
 </html>
