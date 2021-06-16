@@ -31,6 +31,15 @@ Route::get('/login', function () {
 Route::get('/painting', function () {
     return view('painting');
 });
+Route::get('/popup', function () {
+    return view('popup');
+});
+Route::get('/payment', function () {
+    return view('payment');
+});
+Route::get('/popuppayment', function () {
+    return view('popuppayment');
+});
 // Route::get('login', 'App\Http\Controllers\AuthController@index')->name('login');
 // Route::post('proses_login', 'App\Http\Controllers\AuthController@proses_login')->name('proses_login');
 // Route::get('logout', 'App\Http\Controllers\AuthController@logout')->name('logout');
