@@ -22,6 +22,21 @@ Route::get('/welcome', function () {
 Route::get('/daftar', function () {
     return view('daftar');
 });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/painting', function () {
+    return view('painting');
+});
+// Route::get('login', 'App\Http\Controllers\AuthController@index')->name('login');
+// Route::post('proses_login', 'App\Http\Controllers\AuthController@proses_login')->name('proses_login');
+// Route::get('logout', 'App\Http\Controllers\AuthController@logout')->name('logout');
+
+// Route::group(['middleware' => ['auth']], function(){
+//     Route::group(['middleware' => ['cek_login:admin']], function(){
+//         Route::get('admin', 'App\Http\Controllers\AdminController@index')->name('admin');
+//     });
+// });
