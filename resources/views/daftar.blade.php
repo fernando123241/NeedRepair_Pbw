@@ -38,7 +38,7 @@
         color: black;
         border-radius: 10px;
     }
-    .box input[type="submit"]{
+    .box button{
         border: 0;
         background: #5F5F5F;;
         display: block;
@@ -62,13 +62,14 @@
             <img src ="img/LogoNama.png" alt="" width="180" height="55" style="float:right; margin-right:50px;">
         </div>
     </nav>
-    <form class="box" action="" method="post">
+    <div class="box">
         <img src="img/profil_putih.png" alt="" style="width: 85px; height: 85px;"><br><br>
         <h1>Create Account</h1>
         <input type="text" name="" placeholder="Name">
         <input type="email" name="" placeholder="Email">
         <input type="password" name="" placeholder="Password">
-        <input type="submit" name="" value="Create">
-    </form>
+        <button onclick="location.href='{{ url('login') }}'">Create</button>
+    </div>
+    
 </body>
 </html>
