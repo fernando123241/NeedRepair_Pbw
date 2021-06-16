@@ -38,7 +38,7 @@
         color: black;
         border-radius: 10px;
     }
-    .box input[type="submit"]{
+    .box button{
         border: 0;
         background: #5F5F5F;;
         display: block;
@@ -58,16 +58,17 @@
 <body>
     <nav class="navbar fixed-top navbar-light bg-light">
         <div class="container-fluid">
-            <a href="{{ url('welcome') }}"><img src="img/back.png" alt="" style="width: 55px; margin-top: 5px; margin-left: 5px;"></a>
+            <a href="/welcome"><img src="img/back.png" alt="" style="width: 55px; margin-top: 5px; margin-left: 5px;"></a>
             <img src ="img/LogoNama.png" alt="" width="180" height="55" style="float:right; margin-right:50px;">
         </div>
     </nav>
-    <form class="box" action="" method="post">
+    <div class="box">
         <img src="img/profil_putih.png" alt="" style="width: 85px; height: 85px;"><br><br>
         <h1>Login Account</h1>
         <input type="text" name="" placeholder="Name">
         <input type="password" name="" placeholder="Password">
-        <input type="submit" name="" value="login">
-    </form>
+        <button onclick="location.href='{{ url('dashboard') }}'">Login</button>
+    </div>
+        
 </body>
 </html>
